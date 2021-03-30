@@ -1,0 +1,11 @@
+[
+  {
+  "name":"org.hazelcast.nnative.SerializablePerson"
+  },
+  {
+  "name":"java.util.UUID"
+  },
+  {
+  "name":"java.lang.String"
+  }
+]

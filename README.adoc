@@ -1,0 +1,63 @@
+= Hazelcast Native
+
+This project demos +++<abbr title="Ahead-Of-Time">AOT</abbr>+++ compilation via https://www.graalvm.org/reference-manual/native-image/[GraalVM native-image^] on Hazelcast.
+
+== Architecture
+
+The project is based on a simple client-server architecture.
+
+. `native-client`:
+This module offers REST endpoints to communicate with the second module.
+. `native-server`:
+This modules stores the data.
+
+== Building
+
+One must use GraalVM SDK Java 11+.
+
+[source,bash]
+----
+./mvnw package
+----
+
+== Testing
+
+. Launch as many server instances as you'd like:
++
+[source,bash]
+----
+native-server/target/native-server-1.0
+----
++
+. Launch a client instance:
++
+[source,bash]
+----
+native-client/target/native-client-1.0
+----
++
+. Add data in the `Serializable` format:
++
+[source,bash]
+----
+curl -X POST http://localhost:8080/serializable/John%20Ser
+curl -X POST http://localhost:8080/serializable/Jane%20Ser
+curl -X POST http://localhost:8080/serializable/Jack%20Ser
+----
++
+. Get the data:
++
+[source,bash]
+----
+curl http://localhost:8080/serializable
+----
++
+. Do the same with `Portable` format:
++
+[source,bash]
+----
+curl -X POST http://localhost:8080/portable/John%20Port
+curl -X POST http://localhost:8080/portable/Jane%20Port
+curl -X POST http://localhost:8080/portable/Jack%20Port
+curl http://localhost:8080/portable
+----

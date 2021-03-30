@@ -1,0 +1,20 @@
+{
+  "resources":{
+  "includes":[
+    {"pattern":"\\QMETA-INF/services/com.hazelcast.DataSerializerHook\\E"}, 
+    {"pattern":"\\QMETA-INF/services/com.hazelcast.PortableHook\\E"}, 
+    {"pattern":"\\QMETA-INF/services/com.hazelcast.client.impl.ClientExtension\\E"}, 
+    {"pattern":"\\QMETA-INF/services/com.hazelcast.spi.discovery.DiscoveryStrategyFactory\\E"}, 
+    {"pattern":"\\QMETA-INF/services/org.eclipse.jetty.http.HttpFieldPreEncoder\\E"}, 
+    {"pattern":"\\QMETA-INF/services/org.eclipse.jetty.websocket.api.extensions.Extension\\E"}, 
+    {"pattern":"\\Qhazelcast-client.yaml\\E"}, 
+    {"pattern":"\\Qorg/eclipse/jetty/http/encoding.properties\\E"}, 
+    {"pattern":"\\Qorg/eclipse/jetty/http/mime.properties\\E"}, 
+    {"pattern":"\\Qorg/eclipse/jetty/version/build.properties\\E"}, 
+    {"pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"}
+  ]},
+  "bundles":[
+    {"name":"javax.servlet.LocalStrings"}, 
+    {"name":"javax.servlet.http.LocalStrings"}
+  ]
+}

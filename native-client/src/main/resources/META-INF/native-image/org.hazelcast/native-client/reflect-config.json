@@ -1,0 +1,853 @@
+[
+{
+  "name":"boolean[]"
+},
+{
+  "name":"byte[]"
+},
+{
+  "name":"char[]"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ObjectMapper"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7HandlersImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.aggregation.impl.AggregatorDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cache.impl.CacheDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cardinality.impl.CardinalityEstimatorDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.client.HazelcastClient"
+},
+{
+  "name":"com.hazelcast.client.impl.ClientDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.client.impl.clientside.DefaultClientExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.client.impl.connection.ClientConnection",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.client.impl.connection.tcp.TcpClientConnection",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.client.impl.spi.ClientInvocationService",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.client.impl.spi.ClientListenerService",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.client.impl.spi.impl.ClientExecutionServiceImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.client.impl.spi.impl.ClientInvocationServiceImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.client.impl.spi.impl.listener.ClientListenerServiceImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.collection.impl.collection.CollectionDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.collection.impl.queue.QueueDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cp.event.impl.CpEventDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cp.internal.RaftServiceDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cp.internal.datastructures.RaftDataServiceDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cp.internal.datastructures.atomiclong.AtomicLongDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cp.internal.datastructures.atomicref.AtomicRefDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cp.internal.datastructures.countdownlatch.CountDownLatchDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cp.internal.datastructures.lock.LockDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cp.internal.datastructures.semaphore.SemaphoreDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cp.internal.raft.impl.RaftDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cp.internal.session.RaftSessionServiceDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.durableexecutor.impl.DurableExecutorDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.executor.impl.ExecutorDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.flakeidgen.impl.FlakeIdGeneratorDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.instance.GeneratedBuildProperties",
+  "fields":[
+    {"name":"BUILD"}, 
+    {"name":"COMMIT_ID"}, 
+    {"name":"DISTRIBUTION"}, 
+    {"name":"REVISION"}, 
+    {"name":"SERIALIZATION_VERSION"}, 
+    {"name":"VERSION"}
+  ]
+},
+{
+  "name":"com.hazelcast.internal.ascii.TextProtocolsDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.cluster.impl.ClusterDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.config.ConfigDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.crdt.CRDTDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.journal.EventJournalDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.locksupport.LockDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.longregister.LongRegisterDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.management.ManagementDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.memory.DefaultMemoryStats",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.memory.MemoryStats",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.metrics.DynamicMetricsProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.metrics.StaticMetricsProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.metrics.managementcenter.MetricsDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.metrics.metricsets.GarbageCollectionMetricSet$GcStats",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.networking.InboundHandler[]"
+},
+{
+  "name":"com.hazelcast.internal.networking.InboundPipeline",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.networking.Networking",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.networking.OutboundHandler[]"
+},
+{
+  "name":"com.hazelcast.internal.networking.OutboundPipeline",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.networking.nio.MigratablePipeline",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.networking.nio.NioInboundPipeline",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.networking.nio.NioNetworking",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.networking.nio.NioOutboundPipeline",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.networking.nio.NioPipeline",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.networking.nio.NioThread",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.networking.nio.iobalancer.IOBalancer",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.nio.ClassLoaderUtil$IrresolvableConstructor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.nio.Connection",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.nio.ConnectionListener",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.partition.impl.PartitionDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.serialization.impl.AbstractGenericRecord",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.serialization.impl.InternalGenericRecord",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.serialization.impl.portable.ClassDefinitionImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.hazelcast.internal.serialization.impl.portable.PortableGenericRecord",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.hazelcast.internal.util.collection.UtilCollectionSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.util.counters.SwCounter$UnsafeSwCounter",
+  "fields":[{"name":"value", "allowUnsafeAccess":true}]
+},
+{
+  "name":"com.hazelcast.internal.util.executor.HazelcastManagedThread",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.json.internal.JsonDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.map.impl.MapDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.multimap.impl.MultiMapDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.nio.serialization.ClassDefinition",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.nio.serialization.DataSerializable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.nio.serialization.GenericRecord",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.nio.serialization.Portable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.projection.impl.ProjectionDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.query.impl.predicates.PredicateDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.replicatedmap.impl.operation.ReplicatedMapDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.ringbuffer.impl.RingbufferDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.scheduledexecutor.impl.ScheduledExecutorDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.spi.discovery.multicast.MulticastDiscoveryStrategyFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.spi.impl.SpiDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.spi.impl.UnmodifiableLazySet",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.hazelcast.spi.impl.executionservice.TaskScheduler",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.spi.impl.merge.SplitBrainDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.spi.impl.operationexecutor.OperationHostileThread",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.sql.impl.SqlDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.topic.impl.TopicDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.transaction.impl.TransactionDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.wan.impl.WanDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.management.GarbageCollectorMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"com.sun.management.GcInfo",
+  "allPublicMethods":true
+},
+{
+  "name":"com.sun.management.HotSpotDiagnosticMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"com.sun.management.ThreadMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"com.sun.management.UnixOperatingSystemMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"com.sun.management.VMOption",
+  "allPublicMethods":true
+},
+{
+  "name":"com.sun.management.internal.GarbageCollectorExtImpl",
+  "allPublicConstructors":true
+},
+{
+  "name":"com.sun.management.internal.HotSpotDiagnostic",
+  "allPublicConstructors":true
+},
+{
+  "name":"com.sun.management.internal.HotSpotThreadImpl",
+  "allPublicConstructors":true
+},
+{
+  "name":"com.sun.management.internal.OperatingSystemImpl",
+  "allPublicConstructors":true,
+  "methods":[
+    {"name":"getCommittedVirtualMemorySize","parameterTypes":[] }, 
+    {"name":"getFreePhysicalMemorySize","parameterTypes":[] }, 
+    {"name":"getFreeSwapSpaceSize","parameterTypes":[] }, 
+    {"name":"getMaxFileDescriptorCount","parameterTypes":[] }, 
+    {"name":"getOpenFileDescriptorCount","parameterTypes":[] }, 
+    {"name":"getProcessCpuLoad","parameterTypes":[] }, 
+    {"name":"getProcessCpuTime","parameterTypes":[] }, 
+    {"name":"getSystemCpuLoad","parameterTypes":[] }, 
+    {"name":"getTotalPhysicalMemorySize","parameterTypes":[] }, 
+    {"name":"getTotalSwapSpaceSize","parameterTypes":[] }
+  ]
+},
+{
+  "name":"double[]"
+},
+{
+  "name":"float[]"
+},
+{
+  "name":"int[]"
+},
+{
+  "name":"java.io.Serializable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Boolean",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Byte",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Character",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Class",
+  "methods":[{"name":"getModule","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Comparable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Double",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Float",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Integer",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Iterable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Long",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Module",
+  "methods":[
+    {"name":"getLayer","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.ModuleLayer",
+  "methods":[{"name":"configuration","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Object[]"
+},
+{
+  "name":"java.lang.Runnable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Short",
+  "fields":[{"name":"TYPE"}],
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.StackTraceElement",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.String"
+},
+{
+  "name":"java.lang.String[]"
+},
+{
+  "name":"java.lang.Thread",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Void",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.management.BufferPoolMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.ClassLoadingMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.CompilationMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.LockInfo",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.ManagementPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.management.MemoryMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.MemoryManagerMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.MemoryPoolMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.MemoryUsage",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.MonitorInfo",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.PlatformLoggingMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.management.ThreadInfo",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.module.Configuration",
+  "methods":[{"name":"findModule","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.module.ModuleReference",
+  "methods":[{"name":"location","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.module.ResolvedModule",
+  "methods":[{"name":"reference","parameterTypes":[] }]
+},
+{
+  "name":"java.math.BigDecimal"
+},
+{
+  "name":"java.math.BigInteger"
+},
+{
+  "name":"java.security.MessageDigestSpi"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.util.AbstractCollection",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.AbstractMap$SimpleImmutableEntry",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.AbstractSet",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.Collection",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.Date"
+},
+{
+  "name":"java.util.Map$Entry",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.PropertyPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"java.util.Set",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.UUID",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.concurrent.Executor",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.function.Supplier",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.logging.LogManager",
+  "methods":[{"name":"getLoggingMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.util.logging.LoggingMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.management.MBeanOperationInfo",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.management.MBeanServerBuilder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javax.management.ObjectName"
+},
+{
+  "name":"javax.management.openmbean.CompositeData"
+},
+{
+  "name":"javax.management.openmbean.CompositeData[]"
+},
+{
+  "name":"javax.management.openmbean.OpenMBeanOperationInfoSupport"
+},
+{
+  "name":"javax.management.openmbean.TabularData"
+},
+{
+  "name":"jdk.management.jfr.ConfigurationInfo",
+  "allPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.EventTypeInfo",
+  "allPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.FlightRecorderMXBean",
+  "allPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.FlightRecorderMXBeanImpl",
+  "allPublicConstructors":true
+},
+{
+  "name":"jdk.management.jfr.RecordingInfo",
+  "allPublicMethods":true
+},
+{
+  "name":"jdk.management.jfr.SettingDescriptorInfo",
+  "allPublicMethods":true
+},
+{
+  "name":"long[]"
+},
+{
+  "name":"org.eclipse.jetty.servlet.ServletMapping[]"
+},
+{
+  "name":"org.eclipse.jetty.util.TypeUtil",
+  "methods":[
+    {"name":"getClassLoaderLocation","parameterTypes":["java.lang.Class"] }, 
+    {"name":"getCodeSourceLocation","parameterTypes":["java.lang.Class"] }, 
+    {"name":"getModuleLocation","parameterTypes":["java.lang.Class"] }, 
+    {"name":"getSystemClassLoaderLocation","parameterTypes":["java.lang.Class"] }
+  ]
+},
+{
+  "name":"org.eclipse.jetty.util.log.Slf4jLog",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.jetty.websocket.server.WebSocketServerFactory",
+  "methods":[{"name":"<init>","parameterTypes":["javax.servlet.ServletContext","org.eclipse.jetty.websocket.api.WebSocketPolicy"] }]
+},
+{
+  "name":"org.hazelcast.nnative.PortablePerson",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.hazelcast.nnative.SerializablePerson",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.hazelcast.nnative.WithId",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.slf4j.impl.StaticLoggerBinder"
+},
+{
+  "name":"short[]"
+},
+{
+  "name":"sun.management.ClassLoadingImpl",
+  "allPublicConstructors":true
+},
+{
+  "name":"sun.management.CompilationImpl",
+  "allPublicConstructors":true
+},
+{
+  "name":"sun.management.ManagementFactoryHelper$1",
+  "allPublicConstructors":true
+},
+{
+  "name":"sun.management.ManagementFactoryHelper$PlatformLoggingImpl",
+  "allPublicConstructors":true
+},
+{
+  "name":"sun.management.MemoryImpl",
+  "allPublicConstructors":true
+},
+{
+  "name":"sun.management.MemoryManagerImpl",
+  "allPublicConstructors":true
+},
+{
+  "name":"sun.management.MemoryPoolImpl",
+  "allPublicConstructors":true
+},
+{
+  "name":"sun.management.RuntimeImpl",
+  "allPublicConstructors":true
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}]
+},
+{
+  "name":"sun.nio.ch.SelectorImpl",
+  "fields":[
+    {"name":"publicSelectedKeys"}, 
+    {"name":"selectedKeys"}
+  ]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]
