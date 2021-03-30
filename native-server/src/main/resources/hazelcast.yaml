@@ -1,0 +1,9 @@
+hazelcast:
+  native-memory:
+    enabled: true
+    size:
+      unit: MEGABYTES
+      value: 512
+  map:
+    default:
+      in-memory-format: NATIVE

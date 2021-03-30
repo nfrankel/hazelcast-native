@@ -1,9 +1,5 @@
 [
 {
-  "name":"apple.security.AppleProvider",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
   "name":"boolean[]"
 },
 {
@@ -18,6 +14,14 @@
 },
 {
   "name":"com.hazelcast.cache.impl.CacheDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cache.impl.hidensity.operation.HiDensityCacheDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.cache.impl.operation.EnterpriseCacheDataSerializerHook",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -55,71 +59,11 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"com.hazelcast.config.CardinalityEstimatorConfig",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.Config",
-  "allPublicMethods":true
-},
-{
-  "name":"com.hazelcast.config.DurableExecutorConfig",
-  "allPublicMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
   "name":"com.hazelcast.config.ExecutorConfig",
-  "allPublicMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.FlakeIdGeneratorConfig",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.ListConfig",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.MapConfig",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.MultiMapConfig",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.NetworkConfig",
-  "allPublicMethods":true
-},
-{
-  "name":"com.hazelcast.config.PNCounterConfig",
-  "allPublicMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.QueueConfig",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.ReplicatedMapConfig",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.RingbufferConfig",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.ScheduledExecutorConfig",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.SetConfig",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.hazelcast.config.SymmetricEncryptionConfig",
-  "allPublicMethods":true
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"<init>","parameterTypes":["com.hazelcast.config.ExecutorConfig"] }
+  ]
 },
 {
   "name":"com.hazelcast.cp.event.impl.CpEventDataSerializerHook",
@@ -177,6 +121,10 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"com.hazelcast.cp.internal.persistence.CPPersistenceDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
   "name":"com.hazelcast.cp.internal.raft.SnapshotAwareService",
   "allDeclaredFields":true,
   "allDeclaredMethods":true
@@ -191,6 +139,15 @@
 },
 {
   "name":"com.hazelcast.durableexecutor.impl.DurableExecutorDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.enterprise.wan.impl.WanThrottlingAcknowledger$DelayingMetrics",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.enterprise.wan.impl.operation.WanDataSerializerHook",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -213,12 +170,23 @@
   ]
 },
 {
+  "name":"com.hazelcast.instance.GeneratedEnterpriseBuildProperties",
+  "fields":[
+    {"name":"BUILD"}, 
+    {"name":"COMMIT_ID"}, 
+    {"name":"DISTRIBUTION"}, 
+    {"name":"REVISION"}, 
+    {"name":"SERIALIZATION_VERSION"}, 
+    {"name":"VERSION"}
+  ]
+},
+{
   "name":"com.hazelcast.instance.LocalInstanceStats",
   "allDeclaredFields":true,
   "allDeclaredMethods":true
 },
 {
-  "name":"com.hazelcast.instance.impl.DefaultNodeExtension",
+  "name":"com.hazelcast.instance.impl.EnterpriseNodeExtension",
   "methods":[{"name":"<init>","parameterTypes":["com.hazelcast.instance.impl.Node"] }]
 },
 {
@@ -237,6 +205,11 @@
 },
 {
   "name":"com.hazelcast.internal.cluster.ClusterStateListener",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.cluster.ClusterVersionListener",
   "allDeclaredFields":true,
   "allDeclaredMethods":true
 },
@@ -268,6 +241,19 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"com.hazelcast.internal.hidensity.HiDensityStorageInfo",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.hotrestart.backup.HotRestartBackupSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.internal.hotrestart.cluster.HotRestartClusterSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
   "name":"com.hazelcast.internal.journal.EventJournalDataSerializerHook",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
@@ -293,7 +279,37 @@
   "allDeclaredMethods":true
 },
 {
+  "name":"com.hazelcast.internal.memory.GarbageCollectable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.memory.HazelcastMemoryManager",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.memory.MemoryAllocator",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
   "name":"com.hazelcast.internal.memory.MemoryStats",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.memory.NativeMemoryStats",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.memory.PooledNativeMemoryStats",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.hazelcast.internal.memory.PoolingMemoryManager",
   "allDeclaredFields":true,
   "allDeclaredMethods":true
 },
@@ -397,6 +413,11 @@
   "allDeclaredMethods":true
 },
 {
+  "name":"com.hazelcast.internal.nio.Disposable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
   "name":"com.hazelcast.internal.partition.IPartitionService",
   "allDeclaredFields":true,
   "allDeclaredMethods":true
@@ -481,11 +502,6 @@
   "allDeclaredMethods":true
 },
 {
-  "name":"com.hazelcast.internal.server.tcp.TcpServerConnectionManagerBase",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true
-},
-{
   "name":"com.hazelcast.internal.services.ClientAwareService",
   "allDeclaredFields":true,
   "allDeclaredMethods":true
@@ -530,10 +546,6 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"com.hazelcast.internal.util.collection.UtilCollectionSerializerHook",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
   "name":"com.hazelcast.internal.util.counters.SwCounter$UnsafeSwCounter",
   "fields":[{"name":"value", "allowUnsafeAccess":true}]
 },
@@ -558,7 +570,7 @@
   "allDeclaredMethods":true
 },
 {
-  "name":"com.hazelcast.json.internal.JsonDataSerializerHook",
+  "name":"com.hazelcast.license.nlc.impl.NoLicenseProvider",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -568,6 +580,10 @@
 },
 {
   "name":"com.hazelcast.map.impl.MapDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.map.impl.operation.EnterpriseMapDataSerializerHook",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -592,6 +608,14 @@
 },
 {
   "name":"com.hazelcast.scheduledexecutor.impl.ScheduledExecutorDataSerializerHook",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.security.impl.DefaultSecretStrengthPolicy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.hazelcast.security.impl.SecurityDataSerializerHook",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -748,22 +772,6 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"com.sun.crypto.provider.AESCipher$General",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.sun.crypto.provider.DHParameters",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.sun.crypto.provider.HmacCore$HmacSHA256",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.sun.crypto.provider.TlsMasterSecretGenerator",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
   "name":"com.sun.management.GarbageCollectorMXBean",
   "allPublicMethods":true
 },
@@ -814,26 +822,6 @@
     {"name":"getTotalPhysicalMemorySize","parameterTypes":[] }, 
     {"name":"getTotalSwapSpaceSize","parameterTypes":[] }
   ]
-},
-{
-  "name":"com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.sun.org.apache.xerces.internal.impl.dv.xs.ExtendedSchemaDVFactoryImpl",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.sun.org.apache.xerces.internal.impl.dv.xs.SchemaDVFactoryImpl",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.sun.org.apache.xpath.internal.functions.FuncNot",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
   "name":"double[]"
@@ -996,25 +984,7 @@
   "name":"java.math.BigInteger"
 },
 {
-  "name":"java.security.AccessController"
-},
-{
-  "name":"java.security.AlgorithmParametersSpi"
-},
-{
-  "name":"java.security.KeyStoreSpi"
-},
-{
   "name":"java.security.MessageDigestSpi"
-},
-{
-  "name":"java.security.SecureRandomParameters"
-},
-{
-  "name":"java.security.interfaces.RSAPrivateKey"
-},
-{
-  "name":"java.security.interfaces.RSAPublicKey"
 },
 {
   "name":"java.util.Date"
@@ -1083,11 +1053,6 @@
 },
 {
   "name":"javax.management.openmbean.TabularData"
-},
-{
-  "name":"javax.security.auth.x500.X500Principal",
-  "fields":[{"name":"thisX500Name"}],
-  "methods":[{"name":"<init>","parameterTypes":["sun.security.x509.X500Name"] }]
 },
 {
   "name":"jdk.management.jfr.ConfigurationInfo",
@@ -1163,144 +1128,11 @@
   ]
 },
 {
-  "name":"sun.security.pkcs.SignerInfo[]"
-},
-{
-  "name":"sun.security.pkcs12.PKCS12KeyStore",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.DSA$SHA224withDSA",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.DSA$SHA256withDSA",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.JavaKeyStore$DualFormatJKS",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.JavaKeyStore$JKS",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.NativePRNG",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.SHA",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.SHA2$SHA224",
+  "name":"sun.security.provider.MD5",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
   "name":"sun.security.provider.SHA2$SHA256",
   "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.SHA5$SHA384",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.SHA5$SHA512",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.X509Factory",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.certpath.PKIXCertPathValidator",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.rsa.RSAKeyFactory$Legacy",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.rsa.RSAPSSSignature",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.rsa.RSASignature$SHA224withRSA",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.rsa.RSASignature$SHA256withRSA",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.ssl.KeyManagerFactoryImpl$SunX509",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.ssl.SSLContextImpl$DefaultSSLContext",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.util.ObjectIdentifier"
-},
-{
-  "name":"sun.security.x509.AuthorityInfoAccessExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.AuthorityKeyIdentifierExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.BasicConstraintsExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.CRLDistributionPointsExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.CertificateExtensions"
-},
-{
-  "name":"sun.security.x509.CertificatePoliciesExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.ExtendedKeyUsageExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.IssuerAlternativeNameExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.KeyUsageExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.NetscapeCertTypeExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.PrivateKeyUsageExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.SubjectAlternativeNameExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
-},
-{
-  "name":"sun.security.x509.SubjectKeyIdentifierExtension",
-  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
 }
 ]

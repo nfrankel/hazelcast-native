@@ -284,11 +284,6 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"com.hazelcast.internal.serialization.impl.AbstractGenericRecord",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true
-},
-{
   "name":"com.hazelcast.internal.serialization.impl.InternalGenericRecord",
   "allDeclaredMethods":true
 },
@@ -305,10 +300,6 @@
   "allDeclaredConstructors":true
 },
 {
-  "name":"com.hazelcast.internal.util.collection.UtilCollectionSerializerHook",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
   "name":"com.hazelcast.internal.util.counters.SwCounter$UnsafeSwCounter",
   "fields":[{"name":"value", "allowUnsafeAccess":true}]
 },
@@ -316,10 +307,6 @@
   "name":"com.hazelcast.internal.util.executor.HazelcastManagedThread",
   "allDeclaredFields":true,
   "allDeclaredMethods":true
-},
-{
-  "name":"com.hazelcast.json.internal.JsonDataSerializerHook",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
   "name":"com.hazelcast.map.impl.MapDataSerializerHook",

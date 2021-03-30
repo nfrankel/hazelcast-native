@@ -6,12 +6,8 @@
     {"pattern":"\\QMETA-INF/services/com.hazelcast.instance.impl.NodeExtension\\E"}, 
     {"pattern":"\\QMETA-INF/services/com.hazelcast.spi.discovery.DiscoveryStrategyFactory\\E"}, 
     {"pattern":"\\QMETA-INF/services/com.hazelcast.spi.impl.servicemanager.ServiceDescriptorProvider\\E"}, 
-    {"pattern":"\\Qhazelcast-config-4.2.xsd\\E"}, 
-    {"pattern":"\\Qhazelcast-default.xml\\E"}, 
-    {"pattern":"\\Qhazelcast-download.properties\\E"}
+    {"pattern":"\\Qhazelcast-download.properties\\E"}, 
+    {"pattern":"\\Qhazelcast.yaml\\E"}
   ]},
-  "bundles":[
-    {"name":"com.sun.org.apache.xerces.internal.impl.xpath.regex.message"}, 
-    {"name":"com.sun.org.apache.xml.internal.serializer.XMLEntities"}
-  ]
+  "bundles":[]
 }

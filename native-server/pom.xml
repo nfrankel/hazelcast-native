@@ -6,7 +6,7 @@
     <parent>
         <artifactId>native-parent</artifactId>
         <groupId>org.hazelcast</groupId>
-        <version>1.0</version>
+        <version>2.0</version>
     </parent>
     <artifactId>native-server</artifactId>
     <properties>
@@ -23,7 +23,7 @@
     <dependencies>
         <dependency>
             <groupId>com.hazelcast</groupId>
-            <artifactId>hazelcast</artifactId>
+            <artifactId>hazelcast-enterprise</artifactId>
         </dependency>
         <dependency>
             <groupId>org.graalvm.sdk</groupId>
